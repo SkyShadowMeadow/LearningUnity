@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scenes/Lerp/ColourChange.cs" />
     <Compile Include="Assets/Scenes/Lerp/Movenment.cs" />
     <Compile Include="Assets/Scenes/Lerp/RespondToAlarm.cs" />
+    <Compile Include="Assets/Scenes/Lerp/EnemyFollowPath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

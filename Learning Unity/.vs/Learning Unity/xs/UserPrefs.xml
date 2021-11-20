@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Lerp/RespondToAlarm.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Lerp/EnemyFollowPath.cs">
     <Files>
       <File FileName="Assets/Scenes/Lerp/ColourChange.cs" Line="28" Column="94" />
       <File FileName="Assets/Scenes/Lerp/Movenment.cs" Line="19" Column="61" />
-      <File FileName="Assets/Scenes/Lerp/RespondToAlarm.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scenes/Lerp/RespondToAlarm.cs" Line="16" Column="6" />
+      <File FileName="Assets/Scenes/Lerp/EnemyFollowPath.cs" Line="7" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scenes" expanded="True">
                 <Node name="Lerp" expanded="True">
-                  <Node name="RespondToAlarm.cs" selected="True" />
+                  <Node name="EnemyFollowPath.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
