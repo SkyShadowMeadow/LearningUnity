@@ -56,13 +56,18 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scenes/Lerp/DetectEnemies.cs" />
-    <Compile Include="Assets/Scenes/Lerp/Movenment.cs" />
-    <Compile Include="Assets/Scenes/Lerp/RespondToAlarm.cs" />
-    <Compile Include="Assets/Scenes/Lerp/ColourChange.cs" />
-    <Compile Include="Assets/Scenes/Lerp/EnemyFollowPath.cs" />
+    <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/DetectEnemies.cs" />
+    <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/Movenment.cs" />
+    <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/RespondToAlarm.cs" />
+    <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/ColourChange.cs" />
+    <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/EnemyFollowPath.cs" />
+    <Compile Include="Assets/Free Pixel Art Forest/Demo/MoveBackground.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
+     <None Include="Assets/Free Pixel Art Forest/Contact.txt" />
+     <None Include="Assets/Free Pixel Art Forest/Lisense.txt" />
+     <None Include="Assets/Free Pixel Art Forest/readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
