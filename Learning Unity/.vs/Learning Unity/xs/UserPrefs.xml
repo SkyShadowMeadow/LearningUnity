@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project02(Cast)/ActivationOfLight.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project02(Cast)/FinishLevelMonitor.cs">
     <Files>
       <File FileName="Assets/Scenes/Lerp/ColourChange.cs" Line="28" Column="94" />
       <File FileName="Assets/Scenes/Lerp/Movenment.cs" />
       <File FileName="Assets/Scenes/Lerp/RespondToAlarm.cs" />
-      <File FileName="Assets/Scenes/Lerp/EnemyFollowPath.cs" />
+      <File FileName="Assets/Scenes/Lerp/EnemyFollowPath.cs" Line="28" Column="109" />
       <File FileName="Assets/Project02(Cast)/ObstaclesDetector.cs" Line="25" Column="10" />
       <File FileName="Assets/Project02(Cast)/Player.cs" Line="8" Column="5" />
-      <File FileName="Assets/Project02(Cast)/ActivationOfLight.cs" Line="9" Column="9" />
+      <File FileName="Assets/Project02(Cast)/ActivationOfLight.cs" Line="11" Column="26" />
+      <File FileName="Assets/Project02(Cast)/FinishLevelMonitor.cs" Line="28" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Learning Unity" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Project01 (Lerp, Raycast, Animation)" expanded="True" />
               <Node name="Project02(Cast)" expanded="True">
-                <Node name="ActivationOfLight.cs" selected="True" />
+                <Node name="FinishLevelMonitor.cs" selected="True" />
               </Node>
             </Node>
           </Node>
