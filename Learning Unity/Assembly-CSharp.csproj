@@ -63,6 +63,8 @@
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/EnemyFollowPath.cs" />
     <Compile Include="Assets/Free Pixel Art Forest/Demo/MoveBackground.cs" />
     <Compile Include="Assets/Project02(Cast)/ObstaclesDetector.cs" />
+    <Compile Include="Assets/Project02(Cast)/Player.cs" />
+    <Compile Include="Assets/Project02(Cast)/ActivationOfLight.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
