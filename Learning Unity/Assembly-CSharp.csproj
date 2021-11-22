@@ -68,6 +68,7 @@
     <Compile Include="Assets/Project02(Cast)/FinishLevelMonitor.cs" />
     <Compile Include="Assets/Project02(Cast)/EndPoint.cs" />
     <Compile Include="Assets/Project02(Cast)/BarrelMovenmentUp.cs" />
+    <Compile Include="Assets/Project02(Cast)/PugaloMovementLerp.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />

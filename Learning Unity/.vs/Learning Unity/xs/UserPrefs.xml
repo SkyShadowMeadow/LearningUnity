@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project02(Cast)/BarrelMovenmentUp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project02(Cast)/PugaloMovementLerp.cs">
     <Files>
       <File FileName="Assets/Scenes/Lerp/ColourChange.cs" Line="28" Column="94" />
       <File FileName="Assets/Scenes/Lerp/Movenment.cs" />
       <File FileName="Assets/Scenes/Lerp/RespondToAlarm.cs" />
       <File FileName="Assets/Scenes/Lerp/EnemyFollowPath.cs" Line="28" Column="109" />
       <File FileName="Assets/Project02(Cast)/ObstaclesDetector.cs" Line="25" Column="10" />
-      <File FileName="Assets/Project02(Cast)/Player.cs" Line="8" Column="5" />
+      <File FileName="Assets/Project02(Cast)/Player.cs" Line="9" Column="22" />
       <File FileName="Assets/Project02(Cast)/ActivationOfLight.cs" Line="10" Column="18" />
       <File FileName="Assets/Project02(Cast)/FinishLevelMonitor.cs" Line="31" Column="40" />
-      <File FileName="Assets/Project02(Cast)/BarrelMovenmentUp.cs" Line="8" Column="1" />
+      <File FileName="Assets/Project02(Cast)/BarrelMovenmentUp.cs" Line="13" Column="28" />
+      <File FileName="Assets/Project02(Cast)/PugaloMovementLerp.cs" Line="11" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
