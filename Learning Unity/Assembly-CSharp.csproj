@@ -56,26 +56,26 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/FinishLevelMonitor.cs" />
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/DetectEnemies.cs" />
+    <Compile Include="Assets/FromAssetStore/Free Pixel Art Forest/Demo/MoveBackground.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/BarrelMovenmentUp.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/EndPoint.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/ObstaclesDetector.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/PugaloMovementLerp.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/ActivationOfLight.cs" />
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/Movenment.cs" />
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/RespondToAlarm.cs" />
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/ColourChange.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/Fader.cs" />
+    <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/Player.cs" />
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/EnemyFollowPath.cs" />
-    <Compile Include="Assets/Free Pixel Art Forest/Demo/MoveBackground.cs" />
-    <Compile Include="Assets/Project02(Cast)/ObstaclesDetector.cs" />
-    <Compile Include="Assets/Project02(Cast)/Player.cs" />
-    <Compile Include="Assets/Project02(Cast)/ActivationOfLight.cs" />
-    <Compile Include="Assets/Project02(Cast)/FinishLevelMonitor.cs" />
-    <Compile Include="Assets/Project02(Cast)/EndPoint.cs" />
-    <Compile Include="Assets/Project02(Cast)/BarrelMovenmentUp.cs" />
-    <Compile Include="Assets/Project02(Cast)/PugaloMovementLerp.cs" />
-    <Compile Include="Assets/Project02(Cast)/Fader.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
-     <None Include="Assets/Free Pixel Art Forest/Contact.txt" />
-     <None Include="Assets/Free Pixel Art Forest/Lisense.txt" />
-     <None Include="Assets/Free Pixel Art Forest/readme.txt" />
+     <None Include="Assets/FromAssetStore/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
+     <None Include="Assets/FromAssetStore/Free Pixel Art Forest/Contact.txt" />
+     <None Include="Assets/FromAssetStore/Free Pixel Art Forest/Lisense.txt" />
+     <None Include="Assets/FromAssetStore/Free Pixel Art Forest/readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

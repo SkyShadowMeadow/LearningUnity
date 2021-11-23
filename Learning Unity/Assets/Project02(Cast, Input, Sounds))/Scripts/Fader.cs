@@ -22,6 +22,7 @@ public class Fader : MonoBehaviour
             _image.color = currentColor;
             yield return null;
         }
+        _image.gameObject.SetActive(false);
     }
 
 }
