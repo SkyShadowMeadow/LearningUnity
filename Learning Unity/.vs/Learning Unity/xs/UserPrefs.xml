@@ -1,29 +1,21 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project02(Cast)/Fader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project03 (Math.correct movement)/PhysicsMovement.cs">
     <Files>
-      <File FileName="Assets/Scenes/Lerp/ColourChange.cs" Line="28" Column="94" />
-      <File FileName="Assets/Scenes/Lerp/Movenment.cs" />
-      <File FileName="Assets/Scenes/Lerp/RespondToAlarm.cs" />
-      <File FileName="Assets/Scenes/Lerp/EnemyFollowPath.cs" Line="28" Column="109" />
-      <File FileName="Assets/Project02(Cast)/ObstaclesDetector.cs" Line="25" Column="10" />
-      <File FileName="Assets/Project02(Cast)/Player.cs" Line="9" Column="22" />
-      <File FileName="Assets/Project02(Cast)/ActivationOfLight.cs" Line="10" Column="18" />
-      <File FileName="Assets/Project02(Cast)/FinishLevelMonitor.cs" Line="31" Column="40" />
-      <File FileName="Assets/Project02(Cast)/BarrelMovenmentUp.cs" Line="13" Column="28" />
-      <File FileName="Assets/Project02(Cast)/PugaloMovementLerp.cs" Line="12" Column="30" />
-      <File FileName="Assets/Project02(Cast)/Fader.cs" Line="7" Column="12" />
+      <File FileName="Assets/Project03 (Math.correct movement)/PhysicsMovement.cs" Line="91" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Learning Unity" expanded="True" selected="True" />
+          <Node name="Learning Unity" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="185d2498-1e9f-43c4-b086-28491f2ff191" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="02e165ac-21a2-4b6f-8b72-ab9fe3a9089e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

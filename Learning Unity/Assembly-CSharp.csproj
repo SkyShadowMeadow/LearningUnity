@@ -70,6 +70,7 @@
     <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/Fader.cs" />
     <Compile Include="Assets/Project02(Cast, Input, Sounds))/Scripts/Player.cs" />
     <Compile Include="Assets/Project01 (Lerp, Raycast, Animation)/EnemyFollowPath.cs" />
+    <Compile Include="Assets/Project03 (Math.correct movement)/PhysicsMovement.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/FromAssetStore/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
