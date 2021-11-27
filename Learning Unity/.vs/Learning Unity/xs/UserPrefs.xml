@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project03 (Math.correct movement)/PhysicsMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project04(DotWeen)/DoTextTest.cs">
     <Files>
       <File FileName="Assets/Project03 (Math.correct movement)/PhysicsMovement.cs" Line="91" Column="29" />
+      <File FileName="Assets/Project04(DotWeen)/LargeBoardFlyIn.cs" Line="16" Column="50" />
+      <File FileName="Assets/Project04(DotWeen)/FlyInCharacters.cs" Line="21" Column="1" />
+      <File FileName="Assets/Project04(DotWeen)/FadeIn.cs" Line="19" Column="78" />
+      <File FileName="Assets/Project04(DotWeen)/DoTextTest.cs" Line="19" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Learning Unity" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
-          </Node>
+          <Node name="Learning Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

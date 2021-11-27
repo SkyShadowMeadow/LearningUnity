@@ -11,10 +11,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}</ProjectGuid>
+    <ProjectGuid>{4C53AB28-F137-019F-A5EE-70825DB3CD2F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>DOTween.Modules</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -47,29 +47,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\FinishLevelMonitor.cs" />
-     <Compile Include="Assets\Project01 (Lerp, Raycast, Animation)\DetectEnemies.cs" />
-     <Compile Include="Assets\FromAssetStore\Free Pixel Art Forest\Demo\MoveBackground.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\BarrelMovenmentUp.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\EndPoint.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\ObstaclesDetector.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\PugaloMovementLerp.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\ActivationOfLight.cs" />
-     <Compile Include="Assets\Project01 (Lerp, Raycast, Animation)\Movenment.cs" />
-     <Compile Include="Assets\Project01 (Lerp, Raycast, Animation)\RespondToAlarm.cs" />
-     <Compile Include="Assets\Project01 (Lerp, Raycast, Animation)\ColourChange.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\Fader.cs" />
-     <Compile Include="Assets\Project02(Cast, Input, Sounds))\Scripts\Player.cs" />
-     <Compile Include="Assets\Project01 (Lerp, Raycast, Animation)\EnemyFollowPath.cs" />
-     <Compile Include="Assets\Project03 (Math.correct movement)\PhysicsMovement.cs" />
-     <Compile Include="Assets\Project04(DotWeen)\LargeBoardFlyIn.cs" />
-     <Compile Include="Assets\Project04(DotWeen)\FlyInCharacters.cs" />
-     <Compile Include="Assets\Project04(DotWeen)\FadeIn.cs" />
-     <Compile Include="Assets\Project04(DotWeen)\DoTextTest.cs" />
-     <None Include="Assets\FromAssetStore\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
-     <None Include="Assets\FromAssetStore\Free Pixel Art Forest\Contact.txt" />
-     <None Include="Assets\FromAssetStore\Free Pixel Art Forest\Lisense.txt" />
-     <None Include="Assets\FromAssetStore\Free Pixel Art Forest\readme.txt" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTween.Modules.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -291,6 +277,18 @@
  </Reference>
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
  <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
@@ -640,70 +638,14 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
- <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Path.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Editor">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.SpriteShape.Runtime">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics">
- <HintPath>/Users/mirazavrik/UnityProjects/LearningUnity/Learning Unity/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="DOTween.Modules.csproj">
-      <Project>{4C53AB28-F137-019F-A5EE-70825DB3CD2F}</Project>
-      <Name>DOTween.Modules</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
