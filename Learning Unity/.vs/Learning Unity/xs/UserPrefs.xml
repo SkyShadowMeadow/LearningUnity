@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project04(DotWeen)/DoTextTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs">
     <Files>
-      <File FileName="Assets/Project03 (Math.correct movement)/PhysicsMovement.cs" Line="91" Column="29" />
-      <File FileName="Assets/Project04(DotWeen)/LargeBoardFlyIn.cs" Line="16" Column="50" />
-      <File FileName="Assets/Project04(DotWeen)/FlyInCharacters.cs" Line="21" Column="1" />
-      <File FileName="Assets/Project04(DotWeen)/FadeIn.cs" Line="19" Column="78" />
-      <File FileName="Assets/Project04(DotWeen)/DoTextTest.cs" Line="19" Column="57" />
+      <File FileName="Assets/Project04(DotWeen)/CanvasDesactivation.cs" Line="6" Column="18" />
+      <File FileName="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs" Line="4" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

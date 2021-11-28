@@ -5,42 +5,17 @@ using DG.Tweening;
 
 public class FlyInCharacters : MonoBehaviour
 {
-    [SerializeField] private RectTransform[] _rectTransforms;
-    private Vector3 _positionOfTheFirstCharacter;
-    private float _offset = 11;
+    [SerializeField] private RectTransform _rectTransform;
+    [SerializeField] private RectTransform _targetPoint;
+    private Vector3 _positionOfTheCharacter;
+
     private void Awake()
     {
-        _positionOfTheFirstCharacter = new Vector3(400, 242, 0);
+        _positionOfTheCharacter = _targetPoint.position;
     }
 
     public void FlyIn()
     {
-        for (int i = 0; i < _rectTransforms.Length; i++)
-        {
-            _rectTransforms[i].DOMove(_positionOfTheFirstCharacter, 1f).SetLoops(1,LoopType.Restart);
-
-            float nextXPosition = _rectTransforms[i].position.x -
-                                    _rectTransforms[i].sizeDelta.x * _rectTransforms[i].localScale.x
-                                    - _offset;
-            _positionOfTheFirstCharacter = new Vector3(nextXPosition, _positionOfTheFirstCharacter.y, 0);
-        }
-    }
-
-    public void FlyInWithoutDotween()
-    {
-        for (int i = 0; i <_rectTransforms.Length; i++)
-        {
-            _rectTransforms[i].position = _positionOfTheFirstCharacter;
-            float nextXPosition = _rectTransforms[i].position.x -
-                                    _rectTransforms[i].sizeDelta.x * _rectTransforms[i].localScale.x
-                                    - _offset;
-            _positionOfTheFirstCharacter = new Vector3(nextXPosition, _positionOfTheFirstCharacter.y, 0);
-        }
-    }
-
-    IEnumerator StartFlyingIn()
-    {
-        yield return new WaitForSeconds(2f);
-
+        _rectTransform.DOMove(_positionOfTheCharacter, 2f).SetLoops(2, LoopType.Restart);
     }
 }
