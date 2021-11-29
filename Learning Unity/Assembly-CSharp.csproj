@@ -78,6 +78,12 @@
     <Compile Include="Assets/Project04(DotWeen)/Follower.cs" />
     <Compile Include="Assets/Project04(DotWeen)/CanvasDesactivation.cs" />
     <Compile Include="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs" />
+    <Compile Include="Assets/Project05(ScriptableObject)/Card/Card.cs" />
+    <Compile Include="Assets/Project05(ScriptableObject)/Card/CardView.cs" />
+    <Compile Include="Assets/Project05(ScriptableObject)/Shop/Goods.cs" />
+    <Compile Include="Assets/Project05(ScriptableObject)/Shop/Shop.cs" />
+    <Compile Include="Assets/Project05(ScriptableObject)/Shop/Sword.cs" />
+    <Compile Include="Assets/Project05(ScriptableObject)/Shop/Food.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/FromAssetStore/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />

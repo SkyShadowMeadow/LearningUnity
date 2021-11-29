@@ -1,8 +1,14 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project05(ScriptableObject)/Goods/Food.cs">
     <Files>
       <File FileName="Assets/Project04(DotWeen)/CanvasDesactivation.cs" Line="6" Column="18" />
-      <File FileName="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs" Line="4" Column="13" />
+      <File FileName="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs" Line="16" Column="46" />
+      <File FileName="Assets/Project05(ScriptableObject)/Card.cs" Line="5" Column="87" />
+      <File FileName="Assets/Project05(ScriptableObject)/CardView.cs" Line="13" Column="62" />
+      <File FileName="Assets/Project05(ScriptableObject)/Goods/Goods.cs" Line="11" Column="37" />
+      <File FileName="Assets/Project05(ScriptableObject)/Goods/Shop.cs" Line="13" Column="30" />
+      <File FileName="Assets/Project05(ScriptableObject)/Goods/Sword.cs" Line="5" Column="1" />
+      <File FileName="Assets/Project05(ScriptableObject)/Goods/Food.cs" Line="17" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
