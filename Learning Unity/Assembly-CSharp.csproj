@@ -84,6 +84,11 @@
     <Compile Include="Assets/Project05(ScriptableObject)/Shop/Shop.cs" />
     <Compile Include="Assets/Project05(ScriptableObject)/Shop/Sword.cs" />
     <Compile Include="Assets/Project05(ScriptableObject)/Shop/Food.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Player/Player.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerInput.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Enemies/Enemy.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Enemies/EnemyMover.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/FromAssetStore/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />

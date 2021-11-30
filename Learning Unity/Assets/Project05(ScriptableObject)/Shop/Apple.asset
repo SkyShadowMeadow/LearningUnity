@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8fd4e916c1e442686043ca319cdccb, type: 3}
   m_Name: Apple
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
-  Price: 0
-  Calories: 0
+  Name: Red Apple
+  Description: Simple snack
+  Price: 5
+  Calories: 10

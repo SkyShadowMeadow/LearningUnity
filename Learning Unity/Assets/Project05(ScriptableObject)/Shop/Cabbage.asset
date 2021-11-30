@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8fd4e916c1e442686043ca319cdccb, type: 3}
   m_Name: Cabbage
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
-  Price: 0
-  Calories: 0
+  Name: Cabbage
+  Description: Good for some sort of soup
+  Price: 3
+  Calories: 4

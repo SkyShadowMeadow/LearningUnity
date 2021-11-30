@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70a96880e4a74415b86196a63d4ad60d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9570773f831ea4f538e8383d362528a6, type: 3}
   m_Name: Best Sword
   m_EditorClassIdentifier: 
-  _name: Best Sword
-  _description: You can kill anyone with one hit.
-  _price: 1000
+  Name: Best Sword
+  Description: Can kill anyone with one hit.
+  Price: 1000
+  Damage: 10000

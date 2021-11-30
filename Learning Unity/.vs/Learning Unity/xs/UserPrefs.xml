@@ -1,14 +1,11 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project05(ScriptableObject)/Goods/Food.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project 06 (Endless Runner)/Scripts/Enemies/EnemyMover.cs">
     <Files>
-      <File FileName="Assets/Project04(DotWeen)/CanvasDesactivation.cs" Line="6" Column="18" />
-      <File FileName="Assets/Project04(DotWeen)/DOTWeenSequenceCube.cs" Line="16" Column="46" />
-      <File FileName="Assets/Project05(ScriptableObject)/Card.cs" Line="5" Column="87" />
-      <File FileName="Assets/Project05(ScriptableObject)/CardView.cs" Line="13" Column="62" />
-      <File FileName="Assets/Project05(ScriptableObject)/Goods/Goods.cs" Line="11" Column="37" />
-      <File FileName="Assets/Project05(ScriptableObject)/Goods/Shop.cs" Line="13" Column="30" />
-      <File FileName="Assets/Project05(ScriptableObject)/Goods/Sword.cs" Line="5" Column="1" />
-      <File FileName="Assets/Project05(ScriptableObject)/Goods/Food.cs" Line="17" Column="6" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Player.cs" Line="2" Column="24" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/PlayerInput.cs" Line="24" Column="29" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/PlayerMover.cs" Line="26" Column="43" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Enemies/Enemy.cs" Line="18" Column="1" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Enemies/EnemyMover.cs" Line="7" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
