@@ -12,10 +12,11 @@ namespace EndlessRunner
             if (collision.TryGetComponent(out Player player))
             {
                 player.ApplyDamage(_damage);
-                Die();
+
             }
+            Die();
         }
 
-        private void Die() => Destroy(gameObject);
+        private void Die() => gameObject.SetActive(false);
     }
 }

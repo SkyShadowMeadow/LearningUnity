@@ -89,6 +89,8 @@
     <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs" />
     <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Enemies/Enemy.cs" />
     <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Enemies/EnemyMover.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/ObjectPool.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Spawner.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/FromAssetStore/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
