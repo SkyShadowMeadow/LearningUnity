@@ -2145,3 +2145,166 @@ System memory in use after: 164.3 MB.
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2098.
 Total: 3.065004 ms (FindLiveObjects: 0.288308 ms CreateObjectMapping: 0.060514 ms MarkObjects: 2.225622 ms  DeleteObjects: 0.488835 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2170.627978 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs
+  artifactKey: Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs using Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a10f9f5052046ff26403077a1f35c37') in 0.009647 seconds
+  Import took 0.012844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004713 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs
+  artifactKey: Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs using Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a10f9f5052046ff26403077a1f35c37') in 0.007139 seconds
+  Import took 0.010500 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.1 MB.
+System memory in use after: 164.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 3.969353 ms (FindLiveObjects: 0.265953 ms CreateObjectMapping: 0.083952 ms MarkObjects: 3.130246 ms  DeleteObjects: 0.487820 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 418.839613 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs
+  artifactKey: Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs using Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf0fe4512be6f14b696001211013451') in 0.008834 seconds
+  Import took 0.012580 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.3 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 3.242365 ms (FindLiveObjects: 0.306530 ms CreateObjectMapping: 0.069658 ms MarkObjects: 2.375053 ms  DeleteObjects: 0.489105 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.545447 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs
+  artifactKey: Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs using Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa2b18434a45abd328d32caa4613101') in 0.007725 seconds
+  Import took 0.010859 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.4 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 4.795367 ms (FindLiveObjects: 0.457902 ms CreateObjectMapping: 0.244621 ms MarkObjects: 3.639913 ms  DeleteObjects: 0.451652 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.840584 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs
+  artifactKey: Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs using Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6876de5b24546a0e4b2652bd1c7a9a16') in 0.008147 seconds
+  Import took 0.011384 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.6 MB.
+System memory in use after: 165.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 4.031815 ms (FindLiveObjects: 0.467110 ms CreateObjectMapping: 0.078469 ms MarkObjects: 2.858542 ms  DeleteObjects: 0.626042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.914668 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs
+  artifactKey: Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs using Guid(89ad22409cdd345539b64d9865d5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebc29aa29a7f354127ef5de643fdcca') in 0.009293 seconds
+  Import took 0.012686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.8 MB.
+System memory in use after: 165.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 3.370818 ms (FindLiveObjects: 0.250248 ms CreateObjectMapping: 0.055995 ms MarkObjects: 2.226473 ms  DeleteObjects: 0.836932 ms)
+

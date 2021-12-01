@@ -6,6 +6,7 @@ namespace EndlessRunner
     public class Player : MonoBehaviour
     {
         public event UnityAction<int> HealthChanged;
+        public event UnityAction Died;
 
         [SerializeField] private int _health;
 
@@ -21,6 +22,6 @@ namespace EndlessRunner
             if (_health <= 0)
                 Die();
         }
-        private void Die() { }
+        private void Die() { Died?.Invoke(); }
     }
 }
