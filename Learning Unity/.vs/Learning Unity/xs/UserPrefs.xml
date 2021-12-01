@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{2FA683F6-D98B-2A07-B8AA-DDF489DBA5BD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project 06 (Endless Runner)/Scripts/Spawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project 06 (Endless Runner)/Scripts/UI/HealthDisplay.cs">
     <Files>
-      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Player.cs" Line="2" Column="24" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Player.cs" Line="16" Column="1" />
       <File FileName="Assets/Project 06 (Endless Runner)/Scripts/PlayerInput.cs" Line="24" Column="29" />
       <File FileName="Assets/Project 06 (Endless Runner)/Scripts/PlayerMover.cs" Line="26" Column="43" />
-      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Enemies/Enemy.cs" Line="18" Column="1" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Enemies/Enemy.cs" Line="17" Column="19" />
       <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Enemies/EnemyMover.cs" Line="8" Column="1" />
-      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/ObjectPool.cs" Line="6" Column="24" />
-      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Spawner.cs" Line="10" Column="9" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/ObjectPool.cs" Line="9" Column="1" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/Spawner.cs" Line="35" Column="32" />
+      <File FileName="Assets/Project 06 (Endless Runner)/Scripts/UI/HealthDisplay.cs" Line="4" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
