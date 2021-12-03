@@ -93,6 +93,8 @@
     <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/ObjectPool/Spawner.cs" />
     <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/UI/HealthDisplay.cs" />
     <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/UI/GameOverScreen.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Health/HealthBar.cs" />
+    <Compile Include="Assets/Project 06 (Endless Runner)/Scripts/Health/Heart.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
