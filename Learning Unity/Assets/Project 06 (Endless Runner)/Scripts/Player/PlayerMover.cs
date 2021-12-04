@@ -6,7 +6,7 @@ public class PlayerMover : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed = 0.5f;
     [SerializeField] private float _stepSize = 0.5f;
-    [SerializeField] private float _maxPosition = 5.4f;
+    [SerializeField] private float _maxPosition = 5.0f;
     [SerializeField] private float _minPosition = -2.15f;
 
     private void Start()

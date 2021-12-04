@@ -2582,3 +2582,222 @@ System memory in use after: 166.7 MB.
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2138.
 Total: 2.805966 ms (FindLiveObjects: 0.248235 ms CreateObjectMapping: 0.063766 ms MarkObjects: 2.035374 ms  DeleteObjects: 0.457569 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 5264.554614 seconds.
+  path: Assets/FromAssetStore/Tasty_Characters - Forest Pack/Assets/Textures
+  artifactKey: Guid(96463506585577c49a9134d61b40ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromAssetStore/Tasty_Characters - Forest Pack/Assets/Textures using Guid(96463506585577c49a9134d61b40ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179fd5f00103954682220e154017d96e') in 0.005465 seconds
+  Import took 0.009300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011403 seconds.
+  path: Assets/FromAssetStore/Tasty_Characters - Forest Pack/Assets/Textures
+  artifactKey: Guid(96463506585577c49a9134d61b40ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FromAssetStore/Tasty_Characters - Forest Pack/Assets/Textures using Guid(96463506585577c49a9134d61b40ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179fd5f00103954682220e154017d96e') in 0.002118 seconds
+  Import took 0.005744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.312262 seconds.
+  path: Assets/Project 06 (Endless Runner)/Sprites/Layer_0009_2.png
+  artifactKey: Guid(62921c9f24f49c641a3789afe7003e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Sprites/Layer_0009_2.png using Guid(62921c9f24f49c641a3789afe7003e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626f35bda00fe648ec11946808ac7915') in 0.166070 seconds
+  Import took 0.169882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.182105 seconds.
+  path: Assets/Project 06 (Endless Runner)/Sprites/Layer_0008_3.png
+  artifactKey: Guid(0b56cbb95caeb164e91e3f1303e95eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Sprites/Layer_0008_3.png using Guid(0b56cbb95caeb164e91e3f1303e95eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce93888de5b9348dcce48c0be332d01') in 0.024730 seconds
+  Import took 0.028577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.990590 seconds.
+  path: Assets/Project 06 (Endless Runner)/Sprites/Layer_0006_4.png
+  artifactKey: Guid(16e584d682c4c9844bcabde001be7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Sprites/Layer_0006_4.png using Guid(16e584d682c4c9844bcabde001be7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d7a63eb8b0c25d0a61cc0671112999') in 0.021413 seconds
+  Import took 0.027688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.085146 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/ParallaxBackground.cs
+  artifactKey: Guid(c6534ffea04df459b9225dfbfae39a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/ParallaxBackground.cs using Guid(c6534ffea04df459b9225dfbfae39a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb4be6bbc0f377dead3b7383ad79d70') in 0.006755 seconds
+  Import took 0.009982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007116 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/ParallaxBackground.cs
+  artifactKey: Guid(c6534ffea04df459b9225dfbfae39a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/ParallaxBackground.cs using Guid(c6534ffea04df459b9225dfbfae39a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb4be6bbc0f377dead3b7383ad79d70') in 0.004610 seconds
+  Import took 0.007657 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.7 MB.
+System memory in use after: 167.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2143.
+Total: 5.326326 ms (FindLiveObjects: 0.268993 ms CreateObjectMapping: 0.071444 ms MarkObjects: 2.331483 ms  DeleteObjects: 2.651610 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.9 MB.
+System memory in use after: 167.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 3.436113 ms (FindLiveObjects: 0.353688 ms CreateObjectMapping: 0.087090 ms MarkObjects: 2.400203 ms  DeleteObjects: 0.593869 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 554.093324 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/UI/ParallaxBackground.cs
+  artifactKey: Guid(c6534ffea04df459b9225dfbfae39a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/UI/ParallaxBackground.cs using Guid(c6534ffea04df459b9225dfbfae39a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d559f75a6a135cdbcbad6db54e3b9a') in 0.009301 seconds
+  Import took 0.013358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.216326 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb839dbd9d32818488399e553d3373b5') in 0.523789 seconds
+  Import took 0.527742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993fc02711b3bbe6d995d41cc54c5cd') in 0.054880 seconds
+  Import took 0.057932 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2186.
+Total: 4.192802 ms (FindLiveObjects: 0.310390 ms CreateObjectMapping: 0.066339 ms MarkObjects: 3.431667 ms  DeleteObjects: 0.382444 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.139348 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs
+  artifactKey: Guid(c20db99c769b94ccebd116b6ac11429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs using Guid(c20db99c769b94ccebd116b6ac11429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c6a99d73375ab5c37930dc9e8718ab') in 0.008475 seconds
+  Import took 0.011244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003324 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs
+  artifactKey: Guid(c20db99c769b94ccebd116b6ac11429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs using Guid(c20db99c769b94ccebd116b6ac11429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c6a99d73375ab5c37930dc9e8718ab') in 0.006096 seconds
+  Import took 0.008374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1466 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2189.
+Total: 3.478167 ms (FindLiveObjects: 0.264119 ms CreateObjectMapping: 0.121121 ms MarkObjects: 2.534902 ms  DeleteObjects: 0.556804 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.239496 seconds.
+  path: Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs
+  artifactKey: Guid(c20db99c769b94ccebd116b6ac11429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project 06 (Endless Runner)/Scripts/Player/PlayerMover.cs using Guid(c20db99c769b94ccebd116b6ac11429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd16a765b7468fe8ae8147368c63394a') in 0.007755 seconds
+  Import took 0.010575 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1466 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.0 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2192.
+Total: 3.217262 ms (FindLiveObjects: 0.369966 ms CreateObjectMapping: 0.080081 ms MarkObjects: 2.344344 ms  DeleteObjects: 0.421386 ms)
+
