@@ -1,22 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Movenment : MonoBehaviour
+namespace Project01
 {
-    [SerializeField] private float _speed = 2f;
-
-    // Update is called once per frame
-    void Update()
+    public class Movenment : MonoBehaviour
     {
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(_speed * Time.deltaTime, 0, 0);
-        }
+        [SerializeField] private float _speed = 2f;
 
-        if (Input.GetKey(KeyCode.A))
+        void Update()
         {
-            transform.Translate(_speed * Time.deltaTime * -1, 0, 0);
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(_speed * Time.deltaTime, 0, 0);
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.Translate(_speed * Time.deltaTime * -1, 0, 0);
+            }
         }
     }
 }

@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class CanvasDesactivation : MonoBehaviour
+namespace DOTweenProject
 {
-    public UnityEvent OnDesactivate; 
-    [SerializeField] private Canvas _canvas;
-
-
-    public void Desactivate()
+    public class CanvasDesactivation : MonoBehaviour
     {
-        _canvas.gameObject.SetActive(false);
-        OnDesactivate?.Invoke();
+        public UnityEvent OnDesactivate;
+        [SerializeField] private Canvas _canvas;
+
+        public void Desactivate()
+        {
+            _canvas.gameObject.SetActive(false);
+            OnDesactivate?.Invoke();
+        }
     }
 }

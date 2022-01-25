@@ -2,32 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinishLevelMonitor : MonoBehaviour
+namespace Project02
 {
-    private ActivationOfLight[] _points;
-    private bool[] _pointsAreActivated;
-    private void Awake()
+    public class FinishLevelMonitor : MonoBehaviour
     {
-        _points = GetComponentsInChildren<ActivationOfLight>();
-        _pointsAreActivated = new bool[_points.Length];
-    }
-    private void OnEnable()
-    {
-        _points = GetComponentsInChildren<ActivationOfLight>();
+        private ActivationOfLight[] _points;
+        private bool[] _pointsAreActivated;
 
-        foreach (ActivationOfLight point in _points)
+        private void Awake()
         {
-            point.Reached += CheckIfLevelIsFinished;
+            _points = GetComponentsInChildren<ActivationOfLight>();
+            _pointsAreActivated = new bool[_points.Length];
         }
-    }
+        private void OnEnable()
+        {
+            _points = GetComponentsInChildren<ActivationOfLight>();
 
-    private void CheckIfLevelIsFinished()
-    {
-        foreach (ActivationOfLight point in _points)
-        {
-            if (point.IsReached == false)
-                return;
+            foreach (ActivationOfLight point in _points)
+            {
+                point.Reached += CheckIfLevelIsFinished;
+            }
         }
-        Debug.Log("Level is finished");
+
+        private void CheckIfLevelIsFinished()
+        {
+            foreach (ActivationOfLight point in _points)
+            {
+                if (point.IsReached == false)
+                    return;
+            }
+            Debug.Log("Level is finished");
+        }
     }
 }

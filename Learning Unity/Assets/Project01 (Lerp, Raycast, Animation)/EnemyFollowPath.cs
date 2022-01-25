@@ -1,37 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFollowPath : MonoBehaviour
+namespace Project01
 {
-    [SerializeField] private Transform _path;
-    [SerializeField] private float speed = 2f;
-
-    private Transform[] _pointsOfPath;
-    private int _currentPoint;
-    private Transform target;
-
-    void Start()
+    public class EnemyFollowPath : MonoBehaviour
     {
-        _pointsOfPath = new Transform[_path.childCount];
-        for (int i = 0; i < _path.childCount; i++)
-        {
-            _pointsOfPath[i] = _path.GetChild(i);
-        }
-        _currentPoint = 0;
-    }
+        [SerializeField] private Transform _path;
+        [SerializeField] private float speed = 2f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        target = _pointsOfPath[_currentPoint];
-        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        if (transform.position == target.position)
+        private Transform[] _pointsOfPath;
+        private int _currentPoint;
+        private Transform target;
+
+        void Start()
         {
-            _currentPoint++;
-            if (_currentPoint >= _pointsOfPath.Length)
+            _pointsOfPath = new Transform[_path.childCount];
+            for (int i = 0; i < _path.childCount; i++)
             {
-                _currentPoint = 0;
+                _pointsOfPath[i] = _path.GetChild(i);
+            }
+            _currentPoint = 0;
+        }
+
+        void Update()
+        {
+            target = _pointsOfPath[_currentPoint];
+            transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            if (transform.position == target.position)
+            {
+                _currentPoint++;
+                if (_currentPoint >= _pointsOfPath.Length)
+                {
+                    _currentPoint = 0;
+                }
             }
         }
     }

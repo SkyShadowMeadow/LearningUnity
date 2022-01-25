@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Player : MonoBehaviour
+namespace Project02
 {
-
-    [SerializeField] private UnityEvent _hit;
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public class Player : MonoBehaviour
     {
-        if (collision.collider.TryGetComponent(out BarrelMovenmentUp barrelMovenmentUp))
+        [SerializeField] private UnityEvent _hit;
+
+        private void OnCollisionEnter2D(Collision2D collision)
         {
-            _hit?.Invoke();
+            if (collision.collider.TryGetComponent(out BarrelMovenmentUp barrelMovenmentUp))
+            {
+                _hit?.Invoke();
+            }
         }
     }
 }

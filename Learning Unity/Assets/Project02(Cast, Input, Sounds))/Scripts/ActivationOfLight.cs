@@ -3,27 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ActivationOfLight : MonoBehaviour
+namespace Project02
 {
-    [SerializeField] private ParticleSystem _glow;
-
-    public event UnityAction Reached;
-    public bool IsReached { get; private set; }
-    
-    
-    private void OnTriggerEnter2D(Collider2D collision)
+    public class ActivationOfLight : MonoBehaviour
     {
-        if(collision.TryGetComponent<Player>(out Player player))
+        [SerializeField] private ParticleSystem _glow;
+
+        public event UnityAction Reached;
+        public bool IsReached { get; private set; }
+
+
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (IsReached)
+            if (collision.TryGetComponent<Player>(out Player player))
             {
-                Reached?.Invoke();
-            }
-            else
-            {
-                _glow.gameObject.SetActive(true);
-                IsReached = true;
-                Reached?.Invoke();
+                if (IsReached)
+                {
+                    Reached?.Invoke();
+                }
+                else
+                {
+                    _glow.gameObject.SetActive(true);
+                    IsReached = true;
+                    Reached?.Invoke();
+                }
             }
         }
     }
